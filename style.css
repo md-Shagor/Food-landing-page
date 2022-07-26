@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+main{
+    margin: 0px 50px;
+}
+.navigationbar{
+    margin: 10px 0px;
+    
+}
+main .logo{
+    position: relative;
+   max-width: 50px;
+}
+ul{
+text-align: right;
+margin-top: -80px;
+}
+ul li{
+    display: inline-block;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 20px;
+    color: #017143;
+    font-weight: bolder;
+}
+ul li a:hover{
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 20px;
+    color: #d752b1;
+    font-weight: bolder;
+}
+.detailes{
+    
+    font-size: 1.2em;
+    l
+    color: #333;
+}
+p{
+    margin-bottom: 30px;
+    font-size: 15px;
+    ine-height: 1.4em;
+}
+.butto{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    background: #017143;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bolder;
+    
+}
+h2{
+    font-size: 75px;
+}
+.butto:hover{
+    color: white;
+    background: #d752b1;
+}
+span{
+    color: #017143;
+    font-weight: bolder;
+    font-size: 80px;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgbox{
+    display: flex;
+    width: 600px;
+    justify-content: flex-end;
+    padding-right: 100px;
+    margin-top: 60px;
+    
+}
+.imgbox img{
+    position: relative;
+    max-width: 340px;
+    max-height: 400px;
+    
+}
+.thumb{
+    
+  position: absolute;
+  left: 40%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  display: flex;
+}
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+.thumb li img{
+    max-width: 60px;
+}
+.sci{
+    position: absolute;
+    top: 70%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fb{
+    list-style: none;
+
+    
+}
+
+.icon{
+    display: inline-block;
+    margin: 0px 0px;
+    transform: scale(0.6);
+    filter: invert(1);
+     
+}
+.circle{
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     background: #017143;
+     clip-path: circle(600px at right 800px);
+}
